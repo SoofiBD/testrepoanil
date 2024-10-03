@@ -6,8 +6,7 @@
 <div class="container-xxl py-5">
     <div class="container py-5">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="text-secondary text-uppercase">Our Services</h6>
-            <h1 class="mb-5">Explore Our Services</h1>
+            <h6 class="text-secondary text-uppercase">HİZMETLERİMİZ</h6>
         </div>
         <div class="row g-4">
             {% for service in services %}
@@ -19,7 +18,7 @@
                     <h4 class="mb-3">{{service.title}}</h4>
                     <p>{{service.description}}</p>
                     <a class="btn-slide mt-2" href="{% url 'service-detail' service.id %}">
-                        <i class="fa fa-arrow-right"></i><span>Read More</span>
+                        <i class="fa fa-arrow-right"></i><span>Daha Fazla Bilgi</span>
                     </a>
                 </div>
             </div>
