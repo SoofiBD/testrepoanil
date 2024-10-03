@@ -1,1 +1,1 @@
-web : gunicorn personelwebsite.wsgi
+web: gunicorn personelwebsite.wsgi
